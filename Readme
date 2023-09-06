@@ -1,0 +1,13 @@
+first create a IAM user
+connect with that iam user using access and secret keys
+create s3 bucket
+make public read
+eneble versioning
+push index.html and error.html file into bucket
+get ACM certificate using aws certificate manager
+create a CNAME recoard in godaddy using the certificate CNAME and CVALUE
+create a distribution using cloudFront
+map our certificate with our domain name
+make http to https
+edit custom error page for cloudFront to serve
+create our custom domain name for our website
