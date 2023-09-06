@@ -1,0 +1,8 @@
+aws - where we want the resource
+aws_s3_bucket - what resource should we want
+aws_s3_bucket_ownership_controls - ownership for the bucket
+aws_s3_bucket_public_access_block - to give public access
+aws_s3_object - the object that we want to push into bucket
+aws_s3_bucket_website_configuration - to make bucket to serve static webpage with this html content
+aws_acm_certificate - to conform our website is safe and secure
+aws_cloudfront_distribution - to create a distribution in cloudFront and server our webpage from edge all location
